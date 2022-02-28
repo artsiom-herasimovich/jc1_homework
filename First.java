@@ -35,10 +35,10 @@ public class First {
 
     public void task5(){
         long sec = 534_000;
-        double min = (double)(sec)/60;
-        double hour = (double)(sec)/(60*60);
-        double day = (double)(sec)/(60*60*24);
-        double week = (double)(sec)/(60*60*24*7);
+        long min = sec/60;
+        long hour = sec/(60*60);
+        long day = sec/(60*60*24);
+        long week = sec/(60*60*24*7);
 
         System.out.println(sec + " секунд");
         System.out.println(min + " минут");
@@ -54,7 +54,6 @@ public class First {
     }
 
     public void task7(int a, int b, int r){
-
         double d = Math.sqrt((double)(a*a) + (double)(b*b));
 
         if(2*r >= d) {
@@ -80,10 +79,8 @@ public class First {
     }
 
     public void task9(int d, int m, int y){
-
         Calendar cal = new GregorianCalendar(y, (m-1), d);
         int md = cal.getActualMaximum(Calendar.DAY_OF_MONTH);
-
         int nd = d+1;
         int nm = m;
         int ny = y;
