@@ -33,5 +33,9 @@ public class Main {
         System.out.println("Задание 11");
         new First().task11(7);
         System.out.println(" ");
+
+        System.out.println("Задание 12");
+        new First().task12();
+        System.out.println(" ");
     }
 }

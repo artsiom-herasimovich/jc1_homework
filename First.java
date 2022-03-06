@@ -137,4 +137,14 @@ public class First {
                 break;
         }
     }
+
+    public void task12() {
+        int multiply = 1;
+        int i = 1;
+        while (i <= 10) {
+            multiply = multiply* (multiply+1);
+            i++;
+        }
+    }
+
 }
