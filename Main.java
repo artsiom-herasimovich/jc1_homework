@@ -30,12 +30,52 @@ public class Main {
         new First().task9(28, 02, 2022);
         System.out.println(" ");
 
+        System.out.println("Задание 10");
+        new First().task10(4,5,6,4,9,10);
+        System.out.println(" ");
+
         System.out.println("Задание 11");
         new First().task11(7);
         System.out.println(" ");
 
         System.out.println("Задание 12");
         new First().task12();
+        System.out.println(" ");
+
+        System.out.println("Задание 13");
+        new First().task13();
+        System.out.println(" ");
+
+        System.out.println("Задание 14");
+        new First().task14();
+        System.out.println(" ");
+
+        System.out.println("Задание 15");
+        new First().task15();
+        System.out.println(" ");
+
+        System.out.println("Задание 16");
+        new First().task16();
+        System.out.println(" ");
+
+        System.out.println("Задание 17");
+        new First().task17(954367554);
+        System.out.println(" ");
+
+        System.out.println("Задание 18");
+        new First().task18();
+        System.out.println(" ");
+
+        System.out.println("Задание 19");
+        new First().task19();
+        System.out.println(" ");
+
+        System.out.println("Задание 20");
+        new First().task20();
+        System.out.println(" ");
+
+        System.out.println("Задание 21");
+        new First().task21();
         System.out.println(" ");
     }
 }
