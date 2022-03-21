@@ -1,5 +1,7 @@
 package jc1_homework;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 3");
@@ -74,8 +76,12 @@ public class Main {
         new First().task20();
         System.out.println(" ");
 
-        System.out.println("Задание 21");
-        new First().task21();
-        System.out.println(" ");
+//        System.out.println("Задание 21");
+//        new First().task21();
+//        System.out.println(" ");
+
+        System.out.println("Задание 23");
+        new First().task23();
+
     }
 }

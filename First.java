@@ -4,7 +4,8 @@ import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.math.*;
-import java.text.DecimalFormatSymbols;;
+import java.text.DecimalFormatSymbols;
+import java.util.Arrays;
 
 public class First {
     public void task3() {
@@ -323,15 +324,90 @@ public class First {
         }
     }
 
-    public void task21() {
-        int marks[] = new int[10];
-        for (int i = 0; i < 10; i++) {
-            marks[i] = (int) (Math.random() * 10 + 1);
-        }
-        for (int i = 0; i < 10; i++) {
-            System.out.println("[" + i + "]" + (i + 1) + " элемент массива " + marks[i]);
+//    public void task21() {
+//        int marks[] = new int[10];
+//        for (int i = 0; i < 10; i++) {
+//            marks[i] = (int) (Math.random() * 10 + 1);
+//        }
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println("["+i+"]"+(i+1) + " элемент массива " + marks[i]);
+//        }
+//
+//        int minMark = marks[0];
+//        for (int i = 0; i < marks.length; i++) {
+//            if(minMark > marks[i]) {
+//                minMark = marks[i];
+//            }
+//        }
+//
+//        for (int i = 0; i < 10; i++) {
+//            if (marks[i] == minMark) {
+//                System.out.println("Индекс минимального элелемента " + i);
+//            }
+//        }
+//
+//        int maxMark = marks[0];
+//        for (int i = 0; i < marks.length; i++) {
+//            if(maxMark < marks[i]) {
+//                maxMark = marks[i];
+//            }
+//        }
+//
+//        for (int i = 0; i < 10; i++) {
+//            if (marks[i] == maxMark) {
+//                System.out.println("Индекс максимального элелемента " + i);
+//            }
+//        }
+//
+//        int sum = 0;
+//        for (int i = 0; i < marks.length; i++) {
+//            if (marks[i] == minMark) {
+//                sum = marks[i] + marks[i + 1];
+//                i++;
+//            }
+//        }
+//        System.out.println("Сумма элементов " + sum);
+//    }
+
+
+    public void task23() {
+        int[][] myArray = new int[5][5];
+
+        myArray[0][0] = 1;
+        myArray[0][1] = 1;
+        myArray[0][2] = 1;
+        myArray[0][3] = 1;
+        myArray[0][4] = 1;
+        myArray[1][0] = 0;
+        myArray[1][1] = 1;
+        myArray[1][2] = 1;
+        myArray[1][3] = 1;
+        myArray[1][4] = 0;
+        myArray[2][0] = 0;
+        myArray[2][1] = 0;
+        myArray[2][2] = 1;
+        myArray[2][3] = 0;
+        myArray[2][4] = 0;
+        myArray[3][0] = 0;
+        myArray[3][1] = 1;
+        myArray[3][2] = 1;
+        myArray[3][3] = 1;
+        myArray[3][4] = 0;
+        myArray[4][0] = 1;
+        myArray[4][1] = 1;
+        myArray[4][2] = 1;
+        myArray[4][3] = 1;
+        myArray[4][4] = 1;
+
+
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(" " + myArray[i][j] + " ");
+            }
+            System.out.println();
         }
     }
 
-
 }
+
+
