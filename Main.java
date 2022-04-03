@@ -40,34 +40,7 @@ public class Main {
 //        new First().task11(7);
 //        System.out.println(" ");
 
-//
-//        System.out.println("Задание 18");
-//        new First().task18();
-//        System.out.println(" ");
-//
-//        System.out.println("Задание 19");
-//        new First().task19();
-//        System.out.println(" ");
-//
-//        System.out.println("Задание 20");
-//        new First().task20();
-//        System.out.println(" ");
 
-
-
-        System.out.println("Задание 21");
-        new First().task21();
-        System.out.println(" ");
-
-
-
-//        System.out.println("Задание 22");
-//        new First().task22();
-//        System.out.println(" ");
-//
-//        System.out.println("Задание 23");
-//        new First().task23();
-//        System.out.println(" ");
 //
 //        System.out.println("Задание 26");
 //        new First().task26();
