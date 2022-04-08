@@ -1,15 +1,12 @@
-/*
 package jc1_homework.ATM_machine;
-
-import org.drink.machine.DrinkAutomat;
 
 public class Main {
 
     public static void main(String[] args) {
-        ATM_machine atmMachine = new atmMachine();
+        ATM_machine atm_machine = new ATM_machine();
         //Check version in annotation
-        atmMachine.work();
+        atm_machine.work();
     }
 
 }
-*/
+

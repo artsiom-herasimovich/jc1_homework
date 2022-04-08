@@ -41,21 +41,21 @@ public class Main {
 //        System.out.println(" ");
 
 
-//
-//        System.out.println("Задание 26");
-//        new First().task26();
-//        System.out.println(" ");
-//
-//        System.out.println("Задание 27");
-//        new First().task27();
-//        System.out.println(" ");
-//
-//        System.out.println("Задание 28");
-//        new First().task28();
-//        System.out.println(" ");
-//
-//        System.out.println("Задание 29");
-//        new First().task29();
-//        System.out.println(" ");
+
+        System.out.println("Задание 26");
+        new First().task26();
+        System.out.println(" ");
+
+        System.out.println("Задание 27");
+        new First().task27();
+        System.out.println(" ");
+
+        System.out.println("Задание 28");
+        new First().task28();
+        System.out.println(" ");
+
+        System.out.println("Задание 29");
+        new First().task29();
+        System.out.println(" ");
     }
 }
