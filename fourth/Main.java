@@ -1,7 +1,5 @@
 package jc1_homework.fourth;
 
-import jc1_homework.First;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 26");

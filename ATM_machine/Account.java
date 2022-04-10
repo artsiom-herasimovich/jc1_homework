@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Account {
 
-    static Scanner input = new Scanner(System.in);
+    public static Scanner input = new Scanner(System.in);
 
     static int balance = 1000;
     static int pwd = 1111; // пароль
