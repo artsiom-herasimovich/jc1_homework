@@ -7,7 +7,7 @@ public class Account {
     static Scanner input = new Scanner(System.in);
 
     static int balance = 1000;
-    static int pwd = 888888; // пароль
+    static int pwd = 1111; // пароль
     static boolean flag = true; // объявляем логическую переменную
 
     public static void user() {
